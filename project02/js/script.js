@@ -1,14 +1,14 @@
 function myfunction(form) {
     if (form.uname.value == "amin" && form.psw.value == "123") {
-        alert("خوش آمدید")
+        alert("Wellcome ")
 
     } else if (form.uname.value == "" && form.psw.value == "") {
-        alert("فیلد های خالی را پر کنید")
+        alert("Please Enter Your Username and Password")
     } else if (form.uname.value == "amin" && form.psw.value == "") {
-        alert("فیلد خالی را پر کنید")
+        alert("Please Enter Your Password")
     } else if (form.uname.value == "" && form.psw.value == "123") {
-        alert("فیلد خالی را پر کنید")
+        alert("Please Enter Your Username")
     } else {
-        alert("فیلد ها را صحیح پر کنید")
+        alert("Please Enter Your Correct Username or Password")
     }
 }
