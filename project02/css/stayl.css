@@ -1,0 +1,82 @@
+.container {
+    width: 400px;
+    box-shadow: 0 0 5px black;
+    border-bottom: none;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 10px black;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid skyblue;
+}
+
+label {
+    margin: 20px 0 0 5px;
+}
+
+.btn {
+    margin: 20px 5px 10px 5px;
+    color: black;
+    font-weight: bold;
+    padding: 7px 25px;
+    background-color: rgb(6, 209, 91);
+    border: none;
+}
+
+.btn-login {
+    margin: 20px 5px 10px 5px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 7px 25px;
+    background-color: rgb(6, 209, 91);
+    border: none;
+    border-radius: 7px;
+}
+
+.btn-login:hover {
+    opacity: 0.85;
+}
+
+.label-checkbox {
+    margin-bottom: 30px;
+}
+
+.cancelbtn {
+    float: right;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 8px 20px;
+    margin: 15px 5px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    border-radius: 7px;
+}
+
+.cancelbtn:hover {
+    /* background-color: darkred; */
+    opacity: 0.8;
+}
+
+.psw {
+    float: left;
+    margin: 25px 5px 0 5px;
+}
